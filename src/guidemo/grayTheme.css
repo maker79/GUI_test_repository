@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 4, 2020, 1:55:18 PM
+    Author     : Vladan
+*/
+
+/*Modify css as fallows because it cannot be used as regular because regular css is made for html,
+do the star and put everything in {}*/
+
+* {
+dark-primary-color: #616161; 
+default-primary-color: #9E9E9E; 
+light-primary-color: #F5F5F5; 
+text-primary-color: #212121; 
+accent-color: #607D8B; 
+primary-text-color: #212121; 
+secondary-text-color: #f2f2f2; 
+divider-color: #BDBDBD;    
+}
+
+.root {
+    -fx-background-color: default-primary-color;
+}
+
+.button {
+    -fx-font: 16px "Arial";
+    -fx-text-fill: secondary-text-color;
+    -fx-padding: 5;
+    -fx-background-color: accent-color;
+    -fx-effect: dropshadow(one-pass-box, black, 14, 0.0, 6, 0);
+    -fx-background-radius: 8;
+    
+}
+
+.label {
+    -fx-font: 16px "Arial";
+    -fx-text-fill: secondary-text-color;
+    -fx-text-alignment: center;
+}
+
+.choiceBox {
+    -fx-font: 16px "Arial";
+    -fx-text-fill: dark-primary-color;
+    -fx-text-alignment: center;
+    -fx-background-color: accent-color;
+}
+
